@@ -1,0 +1,8 @@
+The gradle-wrapper.jar file needs to be obtained from a Gradle distribution.
+To set up this project properly:
+
+1. Open in Android Studio, which will automatically download and configure Gradle
+2. Or use a system with Gradle 8.2+ installed and run: gradle wrapper
+3. Or download manually from https://services.gradle.org/distributions/gradle-8.2-all.zip
+
+The project structure is complete and ready to build once the Gradle wrapper is properly configured.
