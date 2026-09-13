@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ForgeFit</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_workout">Workout</string>
+    <string name="nav_exercises">Exercises</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Welcome to ForgeFit</string>
+    <string name="onboarding_display_name">What should we call you?</string>
+    <string name="onboarding_sex">Sex (optional)</string>
+    <string name="onboarding_age">How old are you?</string>
+    <string name="onboarding_height">What\'s your height?</string>
+    <string name="onboarding_weight">What\'s your weight?</string>
+    <string name="onboarding_goal">What\'s your primary goal?</string>
+    <string name="onboarding_experience">Training experience?</string>
+    <string name="onboarding_equipment">Available equipment?</string>
+    <string name="onboarding_days">Days per week?</string>
+    <string name="onboarding_session_length">Session length?</string>
+    
+    <!-- Goals -->
+    <string name="goal_strength">Strength</string>
+    <string name="goal_hypertrophy">Muscle Gain</string>
+    <string name="goal_fat_loss">Fat Loss</string>
+    <string name="goal_general">General Fitness</string>
+    <string name="goal_consistency">Consistency</string>
+    
+    <!-- Experience -->
+    <string name="exp_beginner">Beginner</string>
+    <string name="exp_intermediate">Intermediate</string>
+    <string name="exp_advanced">Advanced</string>
+    
+    <!-- Equipment -->
+    <string name="eq_full_gym">Full Gym</string>
+    <string name="eq_dumbbells">Dumbbells</string>
+    <string name="eq_bodyweight">Bodyweight</string>
+    <string name="eq_home_limited">Home Limited</string>
+    
+    <!-- Units -->
+    <string name="unit_kg">kg</string>
+    <string name="unit_lbs">lbs</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_ft">ft/in</string>
+    
+    <!-- Common -->
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+</resources>
