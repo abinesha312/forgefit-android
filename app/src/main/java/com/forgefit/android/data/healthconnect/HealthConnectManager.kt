@@ -75,11 +75,14 @@ class HealthConnectManager(private val context: Context) {
     suspend fun readLatestWeight(): WeightRecord? {
         return try {
             val response = healthConnectClient.readRecords(
-                ReadRecordsRequest(
+                ReadRecordsRequest<WeightRecord>(
                     recordType = WeightRecord::class,
-                    timeRangeFilter = TimeRangeFilter.none(),
+                    timeRangeFilter = TimeRangeFilter.between(
+                        Instant.EPOCH,
+                        Instant.now()
+                    ),
                     ascendingOrder = false,
-                    limit = 1
+                    pageSize = 1
                 )
             )
             response.records.firstOrNull()
@@ -91,11 +94,14 @@ class HealthConnectManager(private val context: Context) {
     suspend fun readLatestHeight(): HeightRecord? {
         return try {
             val response = healthConnectClient.readRecords(
-                ReadRecordsRequest(
+                ReadRecordsRequest<HeightRecord>(
                     recordType = HeightRecord::class,
-                    timeRangeFilter = TimeRangeFilter.none(),
+                    timeRangeFilter = TimeRangeFilter.between(
+                        Instant.EPOCH,
+                        Instant.now()
+                    ),
                     ascendingOrder = false,
-                    limit = 1
+                    pageSize = 1
                 )
             )
             response.records.firstOrNull()
