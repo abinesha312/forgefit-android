@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalMaterial3Api::class)
+
 package com.forgefit.android.ui.onboarding
 
 import androidx.compose.foundation.layout.*
